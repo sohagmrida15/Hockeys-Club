@@ -38,39 +38,109 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto my-12">
-      <div class="carousel w-full">
-        <div id="slide1" class="carousel-item relative w-full">
-          <img src="Images/slider-1.png" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">❮</a> 
-            <a href="#slide2" class="btn btn-circle">❯</a>
+    <header class="container mx-auto my-12 p-5">
+      <div id="slider-content" class="">
+        <!-- Slider Start -->
+        <div class="carousel">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/slider-1.png" class="w-full rounded-2xl" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
           </div>
-        </div> 
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src="Images/slider-2.jpg" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">❮</a> 
-            <a href="#slide1" class="btn btn-circle">❯</a>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/slider-2.jpg" class="w-full rounded-2xl" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
           </div>
-        </div> 
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">❮</a> 
-            <a href="#slide4" class="btn btn-circle">❯</a>
-          </div>
-        </div> 
-        <div id="slide4" class="carousel-item relative w-full">
-          <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle">❮</a> 
-            <a href="#slide1" class="btn btn-circle">❯</a>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="Images/slider-3.jpg" class="w-full rounded-2xl" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
           </div>
         </div>
+        <!-- Slider Badge -->
+        <!-- <div id="slider-badge" class="p-8 max-w-[50%] rounded-2xl absolute bg-slate-950 right-16 bottom-8">
+          <h3 class="mb-4">Meet all the heroes from the field</h3>
+          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+        </div> -->
       </div>
+      <!-- Slider End -->
     </header>
-    <main></main>
+    <main class="container mx-auto p-5">
+      <!-- Progress Section start -->
+      <section id="Progress-section" class="my-12 p-8 text-center">
+        <div id="progress-content" class="mb-12">
+          <h2 class="font-extrabold text-4xl mb-6">Professional Hockeys Club</h2>
+          <p class="font-medium">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <!-- Progress card -->
+        <div id="progress-card-container" class="flex flex-col gap-6 lg:flex-row justify-center lg:justify-around">
+          <!-- card-1 -->
+          <div id="card" class="text-center flex flex-col items-center">
+            <div
+              class="mb-6 rota radial-progress text-[#FF4240]"
+              style="--value: 87"
+              role="progressbar"
+            >
+              87%
+            </div>
+            <h4 class="font-semibold text-xl mb-4">Prayer Facility</h4>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <!-- card-2 -->
+          <div id="card" class="text-center flex flex-col items-center">
+            <div
+              class="mb-6 rota radial-progress text-[#49D293]"
+              style="--value: 95"
+              role="progressbar"
+            >95%
+            </div>
+            <h4 class="font-semibold text-xl mb-4">Experienced Coach</h4>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <!-- card-3 -->
+          <div id="card" class="text-center flex flex-col items-center">
+            <div
+              class="mb-6 rota radial-progress text-[#FFB546]"
+              style="--value: 90"
+              role="progressbar"
+            >
+              90%
+            </div>
+            <h4 class="font-semibold text-xl mb-4">Senior Player</h4>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <!-- card-4-->
+          <div id="card" class="text-center flex flex-col items-center">
+            <div
+              class="mb-6 rota radial-progress text-[#4C8DF1]"
+              style="--value: 80"
+              role="progressbar"
+            >
+              80%
+            </div>
+            <h4 class="font-semibold text-xl mb-4">Training Ground</h4>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+        </div>
+      </section>
+      <!-- Progress Section End -->
+    </main>
     <footer></footer>
   </body>
 </html>
